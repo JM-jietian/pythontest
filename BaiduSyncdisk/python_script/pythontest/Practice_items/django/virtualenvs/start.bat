@@ -1,0 +1,1 @@
+start py3_django\Scripts\activate
