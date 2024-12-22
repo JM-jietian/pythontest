@@ -1,0 +1,1 @@
+python D:\BaiduSyncdisk\python_script\Method\pyinstaller_packaged.py D:\BaiduSyncdisk\python_script\Special\AppInitiate\pycharm.ico D:\BaiduSyncdisk\python_script\Special\AppInitiate\initiate.py

@@ -1,0 +1,20 @@
+<!--
+子模板：标签extends：继承，写在子模板文件的第一行。
+-->
+{% extends 'base.html'%}
+
+<!-- 重写标题 -->
+{% block title %}
+    重写标题
+{% endblock title %}
+
+<!-- 重写主体部分 -->
+{% block main %}
+    <a href="#">重写主体部分</a>
+{% endblock main %}
+
+<!-- 覆盖底部部分 -->
+{% block footer%}
+{% endblock footer%}
+
+

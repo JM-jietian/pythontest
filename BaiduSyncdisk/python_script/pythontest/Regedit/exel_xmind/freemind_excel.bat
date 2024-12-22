@@ -1,0 +1,1 @@
+python E:\pythontest-master\BaiduSyncdisk\python_script\pythontest\Regedit\exel_xmind\freemind_excel.py %1

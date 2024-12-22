@@ -1,0 +1,1 @@
+python D:\BaiduSyncdisk\python_script\Regedit\EXEL_XMAIND\excel_xmind.py %1

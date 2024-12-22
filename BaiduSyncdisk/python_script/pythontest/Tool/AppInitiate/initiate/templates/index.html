@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>启动速度测试</title>
+</head>
+<script>
+// 在按钮点击时调用这个函数
+function showAlert() {
+    alert('准备启动投屏 ······\n注意：操作完成后关闭投屏即可');
+    document.getElementById('start').value = "正在启动投屏，请稍后······";
+}
+</script>
+<body>
+<form action="/index/" method="post"> <!-- 指定表单提交的URL -->
+    <hr>
+    设备ID:
+        <select name="device_id"> <!-- 为<select>添加name属性 -->
+            {% if devices|length >= 1 %}
+                {% for device in devices %}
+                    <option value="{{ device }}">{{ device }}</option> <!-- 为<option>添加value属性 -->
+                {% endfor %}
+            {% else %}
+                <option value="">未连接设备，请连接设备后刷新页面</option>
+            {% endif %}
+        </select>
+    {% if startup_duration %}
+        <hr>
+        耗时： {{ startup_duration }} 秒
+    {% endif %}
+    <hr>
+    <input id="start" type="submit" onclick="showAlert()" value="开始录制">
+</form>
+</body>
+</html>

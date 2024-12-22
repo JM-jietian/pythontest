@@ -1,0 +1,4 @@
+下载脚本地址：
+https://git.n.xiaomi.com/MiPhonePerformance/adb-matrix
+git clone https://git.n.xiaomi.com/MiPhonePerformance/adb-matrix.git
+

@@ -1,0 +1,172 @@
+Title:读取日历:READ_CALENDAR
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+
+----------------------------------------
+Title:编辑日历:WRITE_CALENDAR
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+
+----------------------------------------
+Title:使用麦克风录音:RECORD_AUDIO
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+----------------------------------------
+Title:获取设备 IMSI、IMEI 等设备识别码，还可以获取电话通话状态，如来电、通话中、响铃中等[*]:READ_PHONE_STATE
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+----------------------------------------
+Title:读取外置存储器:READ_EXTERNAL_STORAGE
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+----------------------------------------
+Title:写入外置存储器:WRITE_EXTERNAL_STORAGE
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+----------------------------------------
+Title:读写存储卡权限/所有文件权限(安卓11以上):MANAGE_EXTERNAL_STORAGE
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+----------------------------------------
+Title:读写存储卡权限/所有文件权限(安卓11以下-1):READ_EXTERNAL_STORAGE
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+----------------------------------------
+Title:读写存储卡权限/所有文件权限(安卓11以下-2):WRITE_EXTERNAL_STORAGE
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+----------------------------------------
+Title:安装包下载权限(提供应用内自升级功能):REQUEST_INSTALL_PACKAGES
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+----------------------------------------
+Title:获取系统应用列表权限:QUERY_ALL_PACKAGES
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
+----------------------------------------
+Title:网络权限INTERNET:INTERNET
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+----------------------------------------
+Title:网络权限ACCESS_NETWORK_STATE:ACCESS_NETWORK_STATE
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+----------------------------------------
+Title:网络权限ACCESS_WIFI_STATE:ACCESS_WIFI_STATE
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+----------------------------------------
+Title:运行时权限，需要动态授权:POST_NOTIFICATIONS
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+----------------------------------------
+Title:安卓，悬浮窗权限动态请求:SYSTEM_ALERT_WINDOW
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+----------------------------------------
+Title:蓝牙权限:BLUETOOTH
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH"/>
+
+----------------------------------------
+Title:蓝牙权限:BLUETOOTH
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+
+----------------------------------------
+Title:蓝牙权限:BLUETOOTH
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+----------------------------------------
+Title:安卓12-蓝牙权限:BLUETOOTH_CONNECT
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+
+----------------------------------------
+Title:麦克风权限弹窗（android.permission.RECORD_AUDIO）:android.permission.RECORD_AUDIO
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+----------------------------------------
+Title:普通权限-获取网络信息状态:ACCESS_NETWORK_STATE
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+----------------------------------------
+Title:普通权限-获取当前WiFi接入的状态以及WLAN热点的信息:ACCESS_WIFI_STATE
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+----------------------------------------
+Title:普通权限-连接配对过的蓝牙设备:BLUETOOTH
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH"/>
+
+----------------------------------------
+Title:普通权限-连接配对过的蓝牙设备:BLUETOOTH
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+
+----------------------------------------
+Title:普通权限-连接配对过的蓝牙设备:BLUETOOTH
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+----------------------------------------
+Title:普通权限-发现和配对新的蓝牙设备:BLUETOOTH_ADMIN
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+----------------------------------------
+Title:普通权限-改变网络状态，如是否联网:CHANGE_NETWORK_STATE
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+----------------------------------------
+Title:普通权限-RW到诊断资源:DIAGNOSTIC
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+
+----------------------------------------
+Title:普通权限-获取系统dump信息:DUMP
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+
+----------------------------------------
+Title:普通权限-扩展或收缩状态栏:EXPAND_STATUS_BAR
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+
+----------------------------------------
+Title:普通权限-安装应用:INSTALL_PACKAGES
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+----------------------------------------
+Title:普通权限-创建快捷方式:INSTALL_SHORTCUT
+    <uses-permission android:name="android.permission.INSTALL_SHORTCUT"/>
+
+----------------------------------------
+Title:普通权限-访问网络连接:INTERNET
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+----------------------------------------
+Title:普通权限-修改声音设置信息:MODIFY_AUDIO_SETTINGS
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS_PRIVILEGED"/>
+
+----------------------------------------
+Title:普通权限-挂载、反挂载外部文件系统:MOUNT_UNMOUNT_FILESYSTEMS
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+----------------------------------------
+Title:普通权限-重新排序系统Z轴运行中的任务:REORDER_TASKS
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+
+----------------------------------------
+Title:普通权限-请求安装包:REQUEST_INSTALL_PACKAGES
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+----------------------------------------
+Title:普通权限-打开、关闭、禁用状态栏:STATUS_BAR
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+
+----------------------------------------
+Title:普通权限-显示系统窗口:SYSTEM_ALERT_WINDOW
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+----------------------------------------
+Title:普通权限-允许程序振动:VIBRATE
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+----------------------------------------
+Title:普通权限-允许程序在手机屏幕关闭后后台进程仍然运行:WAKE_LOCK
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+----------------------------------------
+Title:普通权限-允许程序读取或写入系统设置:WRITE_SETTINGS
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+----------------------------------------
